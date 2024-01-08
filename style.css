@@ -1,0 +1,143 @@
+body {
+  background-color: black;
+  font-family: "Oxygen", sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 30px;
+}
+.aside {
+  height: 630px;
+  border-radius: 20px;
+  padding-left: 30px;
+  /* padding-top: 15px; */
+  padding-bottom: 15px;
+  border-color: #adb5bd;
+}
+.aside1 {
+  background-color: #343a40;
+  border-radius: 20px;
+  padding-right: 30px;
+  /* padding-top: 15px; */
+  padding-bottom: 15px;
+}
+.img {
+  align-items: center;
+  height: 150px;
+  width: 130px;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.btn {
+  background-color: #868e96;
+  color: #f1f3f5;
+  border-radius: 5px;
+  border: #868e96;
+  /* align-items: center; */
+  padding-left: 10px;
+}
+.mail {
+  color: white;
+  line-height: 5px;
+}
+.phone {
+  color: white;
+  line-height: 3px;
+}
+.birthday {
+  color: white;
+  line-height: 3px;
+}
+.location {
+  color: white;
+  line-height: 14px;
+}
+.bottom {
+  align-items: center;
+}
+.head {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: #495057;
+  width: 750px;
+  font-size: 15px;
+  border-bottom: 1px solid white;
+  height: 45px;
+  color: white;
+  cursor: pointer;
+  align-items: center;
+  float: right;
+  margin-right: -29px;
+  border-radius: 15px;
+}
+h2 {
+  padding-top: 50px;
+  padding-left: 30px;
+}
+.para {
+  padding-inline-start: 20px;
+}
+.container-2 {
+  display: grid;
+  background-color: #343a40;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-left: 50px;
+  grid-gap: 20px;
+}
+.grid-item {
+  display: flex;
+  background: #495057;
+  flex-direction: row;
+  gap: 30px;
+  border-radius: 5px;
+}
+
+.grid-bio-item {
+  display: flex;
+  background: #495057;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 5px;
+  margin-left: 0;
+}
+.grid-item:hover {
+  transform: scale(1.1);
+}
+.fig {
+  width: 100%;
+}
+.about {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 18px;
+}
+.about:hover {
+  color: #fcc419;
+}
+.camera {
+  height: 50px;
+  width: 50px;
+  color: #fcc419;
+}
+.phone1 {
+  height: 50px;
+  width: 50px;
+  color: #fcc419;
+}
+.fa-laptop-code {
+  color: #fcc419;
+  font-size: 30px;
+}
+.code {
+  color: #fcc419;
+  height: 50px;
+  width: 50px;
+  padding-top: 17px;
+  padding-left: 7px;
+  align-items: center;
+}
